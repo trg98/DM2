@@ -1,0 +1,463 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html{
+	height: 100%;
+}
+
+body{
+
+
+    font-weight:10px;
+	font-size: 1.0rem;
+	min-height: 100%; 
+	grid-gap:5px;
+}
+
+@media {
+.grid_container{
+	display: grid;
+	grid-template: 
+	"header" 100px
+	"main"	auto
+	"sidebar" 1000px
+	"footer" 30px
+	;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+.header{
+	grid-area: header;
+	background-color:white;
+}
+
+.cabezera{
+	float: left;
+}
+
+.main{
+	width:500px;
+	padding:1%;
+	margin-left:10px;
+    border-radius:10px;
+	grid-area: main;
+	background-color:silver;
+}
+
+.main1{
+	align-content:center;
+	margin-left:10px;
+    border-radius:10px;
+	grid-area: main;
+	background-color:silver;
+}
+
+
+.sidebar{
+	width:90%;
+	float:right;
+	margin-right:150px;
+	padding:2%;
+	border-radius:10px;
+	background-color:silver;
+	font-family: 'Carter One';
+	grid-area: sidebar;
+}
+
+.footer{
+	text-align:center;
+	grid-area: footer;
+	color: white;
+    font-family: 'Carter One';
+    background-color: red; 
+	font-size: 18px;
+	transition: all 0.3s ease;
+}
+
+.footer:hover{
+	box-shadow: inset 0 0 0 25px silver;
+}
+
+#logo{
+	float: left;
+	margin-top: 10px;
+	margin-left:40px;
+}
+
+
+	
+.titulo{
+	font-family:Arial;
+    float: left;
+	position: relative;
+	margin-top: 5%;
+	margin-left: 8%;
+	font-family: ;
+	font-weight:;
+	font-size: 30pt;
+	transition: all 0.3s ease;
+
+}
+
+@keyframes titulo{
+
+15% { transform: translateX(5px);}
+
+30% { transform: translateX(-5px);}
+
+50% { transform: translateX(3px);}
+
+65% { transform: translateX(-3px);}
+
+80% { transform: translateX(2px);}
+
+100% { transform: translateX(0);}
+
+}
+
+
+
+#titulos{
+
+	padding-top: 2%;
+	padding-left: 5%;
+	font-size: 18pt;
+}
+
+#titulobody{
+	margin-top: 5%;
+	margin-left: 6%;
+	font-size: 18pt;
+
+}
+
+p{   
+	padding-top: 2%;
+	padding-left: 5%;
+	font-size: 10pt;
+}
+
+ul{ font-size:16px;
+	padding-top: 1%;
+	padding-left: 7%;
+}
+
+h2{ font-size:20px;
+	color:white;
+}
+
+h3{ font-family: 'Carter One';
+    font-size:25px;
+	margin-top: 3px;
+	margin-left: 3%;
+}
+
+h4{ margin-right:10px;
+	font-family: 'Carter One';
+    font-size:20px;
+	margin-top: 3px;
+	margin-left: 3%;
+}
+
+h5{  font-size:20px;
+	font-family: 'Carter One';
+}
+
+h6{
+	font-size:20px;
+	font-family:Arial;
+	margin-bottom:20px;
+}
+
+
+
+
+
+#formulario{
+	font-family: 'Carter One';
+	float: left;
+	margin-right:130px;
+	position:relative;
+	top: 7%;
+	background-color: silver;
+	border-radius: 5px;
+	width: 300px;
+	padding: 15px;
+
+}
+
+.enviar{
+	width: 70%;
+	height: 35px;
+	border-radius: 5px;
+	color: white;
+    font-family: 'Carter One';
+    background-color: red; 
+	font-size: 18px;
+	float: center;
+	transition: all 0.3s ease;
+}
+
+.enviar:hover{
+	box-shadow: inset 0 0 0 5px #F4E501;
+}
+
+.anchoform{
+ 	width: 100%
+ }
+
+.footer{
+	text-align:center;
+	grid-area: footer;
+	color: white;
+    font-family: 'Carter One';
+    background-color: red; 
+	font-size: 15px;
+	transition: all 0.3s ease;
+}
+
+.footer:hover{
+	box-shadow: inset 0 0 0 25px silver;
+}
+
+@media (min-width: 600px) {
+
+	.grid_container{
+
+		grid-template: 
+		"header 	header" 	100px 
+		"main 		sidebar" 	auto
+		"footer 	footer" 	50px /
+		 auto 		auto;
+ 	}
+a{
+	text-decoration: none;
+	color: black;
+}
+
+
+
+#titulos{
+	padding-top: 2%;
+	padding-left: 5%;
+	font-size: 18pt;
+}
+
+#titulobody{
+	margin-top: 5%;
+	margin-left: 6%;
+	font-size: 18pt;
+
+}
+
+ul{
+	padding-top: 1%;
+	padding-left: 7%;
+}
+
+
+p{
+	padding-top: 2%;
+	padding-left: 5%;
+	font-size: 18pt;
+}
+
+
+
+.main{
+	width:500px;
+	padding:1%;
+	margin-left:100px;
+    border-radius:10px;
+	grid-area: main;
+	background-color:silver;
+}
+
+.header{
+	grid-area: header;
+	background-color:white;
+}
+
+.cabecera{
+	float: left;
+	animation:infinite;
+
+
+}
+
+.footer{
+	text-align:center;
+	grid-area: footer;
+	color: white;
+    font-family: 'Carter One';
+    background-color: red; 
+	font-size: 18px;
+	transition: all 0.3s ease;
+}
+
+.footer:hover{
+	box-shadow: inset 0 0 0 25px silver;
+}
+
+.sidebar{
+	width:90%;
+	float:right;
+	margin-right:150px;
+	padding:2%;
+	border-radius:10px;
+	background-color:silver;
+	font-family: 'Carter One';
+	grid-area: sidebar;
+}
+
+.titulo{
+	float: left;
+	position: relative;
+	margin-left: 5%;
+	margin-top: 3%;
+	font-family:Arial;
+	font-weight: bold;
+	font-size: 30pt;
+	transition: all 0.3s ease;
+
+}
+
+#formulario{
+	font-family: 'Carter One';
+	float: right;
+	margin-right:130px;
+	position:relative;
+	top: 7%;
+	background-color: silver;
+	border-radius: 5px;
+	width: 300px;
+	padding: 15px;
+
+}
+
+.enviar{
+	width: 70%;
+	height: 35px;
+	border-radius: 5px;
+	color: white;
+	font-family: 'Carter One';
+	background-color: red; 
+	font-size: 18px;
+	float: center;
+	transition: all 0.3s ease;
+}
+
+.enviar:hover{
+	box-shadow: inset 0 0 0 5px #F4E501;
+}
+
+.anchoform{
+ 	width: 100%
+ }
+
+@media (min-width: 900px) {
+	.grid_container{
+		grid-template: 
+		"header 	header 	header" 	100px 
+		"main 		main 	sidebar" 	auto
+		"footer 	footer 	footer" 	50px /
+		 300px 		auto 	600px;
+	}
+
+.main{
+	grid-area: main;
+	background-color:silver;
+}
+
+.header{
+	grid-area: header;
+	background-color:white;
+}
+
+.cabezera{
+	float: left;
+
+}
+
+.footer{
+	text-align:center;
+	grid-area: footer;
+	color: white;
+    font-family: 'Carter One';
+    background-color: red; 
+	font-size: 18px;
+	transition: all 0.3s ease;
+}
+
+.footer:hover{
+	box-shadow: inset 0 0 0 25px silver;
+}
+
+.sidebar{
+	width:90%;
+	float:right;
+	margin-right:150px;
+	padding:2%;
+	border-radius:10px;
+	background-color:silver;
+	font-family: 'Carter One';
+	grid-area: sidebar;
+}
+
+
+#logo{
+	width: 50px;
+	height: 50px;
+	float: left;
+	margin-top: 10px;
+	margin-left:40px;
+}
+
+
+#formulario{
+	font-family: 'Carter One';
+	float: right;
+	margin-right:130px;
+	position:relative;
+	top: 7%;
+	background-color: silver;
+	border-radius: 5px;
+	width: 300px;
+	padding: 15px;
+
+}
+
+.anchoform{
+ 	width: 100%
+ }
+
+.enviar{
+	width: 70%;
+	height: 35px;
+	border-radius: 5px;
+	color: white;
+	font-family: 'Carter One';
+	background-color: red; 
+	font-size: 18px;
+	float: center;
+	transition: all 0.3s ease;
+}
+
+.enviar:hover{
+	box-shadow: inset 0 0 0 5px #F4E501;
+}
+
+
+
+
+ 
