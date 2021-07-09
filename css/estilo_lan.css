@@ -17,6 +17,10 @@ body{
 	 
 }
 
+
+
+
+
 #image{
 	background: url(../imagenes/fondo1.jpg);
 	background-repeat: no-repeat;
@@ -43,7 +47,7 @@ body{
 
 .header{
 	grid-area: header;
-	background-color: rgba(236, 240, 241,0.75)
+	background-color: white;
 }
 
 
@@ -52,12 +56,15 @@ body{
 }
 
 
+
+
 .sidebar{
 	grid-area: sidebar;
 	margin-top: 3%;
 }
 
 .footer{
+	font-size:10px;
 	grid-area: footer;
 	background-color: red;
 	 
@@ -71,18 +78,22 @@ body{
 }
 
 .redes{
+	padding:1px;
 	float: right;
 	margin-right: 5%;
-	margin-top: -4%;
+	margin-top:-3%;
 }
 	
 #seguinos{
 	float: right;
 	margin-right: 20%;
-	margin-top: -6%;
-	font-size: 12px;
-	color: #ffffff;
+	margin-top: -4%;
+	font-size: 15px;
+	color: white;
 }
+
+
+
 
 #titulos{
 	padding-top: 2%;
@@ -98,23 +109,18 @@ body{
 	font-size: 30pt;
 }
 
-#galería{
-	padding-top: 1%;
-	padding-left: 10%;
 
+#subtitulos1{
+	padding:15px;
+	margin-left:90px;
+	font-size: 25pt;
+	background-color:silver;
 }
 
 
-#participar{
-	padding-top: 2%;
-	padding-right: 5%;
-	padding-left: 5%;
-	padding-bottom:2%;
-	text-align: left;
-	background-color:red;
-	border-radius:10px;
-	color:white;
-	margin-left:10%;
+#galería{
+	padding-top: 1%;
+	padding-left: 10%;
 
 }
 
@@ -170,8 +176,21 @@ h4{
 	
 }
 
+#participar{
+	padding-top: 2%;
+	padding-right: 5%;
+	padding-left: 5%;
+	padding-bottom:5%;
+	text-align: left;
+	background-color:red;
+	border-radius:10px;
+	color:white;
+	margin-left:10%;
+
+}
+
 #formugana{
-	margin-bottom:25px;
+	margin-top:10px;
 	position: relative;
 	top: 1%;
 	left: 10%;
@@ -179,8 +198,23 @@ h4{
 	width: 350px;
 	background-color: silver;
 	border-radius: 15px;
-	border: 2px solid #f0932b;
-	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.5);
+	font-weight:bold;
+	border: 2px;
+}
+
+#participar2{
+	padding-top: 2%;
+	padding-right: 5%;
+	padding-left: 5%;
+	padding-bottom:5%;
+	margin-top:30px;
+	margin-bottom:10px;
+	text-align: left;
+	background-color:red;
+	border-radius:10px;
+	color:white;
+	margin-left:10%;
+font-size:15px;
 }
 
 .etiqueta {
@@ -246,14 +280,62 @@ h1{
 #subtitulos{
 	padding-top: 2%;
 	padding-left: 10%;
-	font-size: 20pt;
+	font-size: 30pt;
 }
 
+
 #subtitulos1{
-	padding-top: 2%;
-	padding-left: 10%;
-	font-size: 20pt;
+	padding:15px;
+	margin-left:90px;
+	font-size: 25pt;
+	background-color:silver;
 }
+
+
+#participar{
+	padding-top: 2%;
+	padding-right: 5%;
+	padding-left: 5%;
+	padding-bottom:5%;
+	text-align: left;
+	background-color:red;
+	border-radius:10px;
+	color:white;
+	margin-left:10%;
+
+}
+
+#formugana{
+	margin-top:10px;
+	position: relative;
+	top: 1%;
+	left: 10%;
+	padding: 15px;
+	width: 350px;
+	background-color: silver;
+	border-radius: 15px;
+	font-weight:bold;
+	border: 2px;
+}
+
+#participar2{
+	padding-top: 2%;
+	padding-right: 5%;
+	padding-left: 5%;
+	padding-bottom:5%;
+	margin-top:30px;
+	margin-bottom:10px;
+	text-align: left;
+	background-color:red;
+	border-radius:10px;
+	color:white;
+	margin-left:10%;
+font-size:15px;
+}
+
+
+
+
 
 #galería{
 	padding-top: 1%;
@@ -277,7 +359,7 @@ p{
 .redes{
 	float: right;
 	margin-right: 5%;
-	margin-top: -3%;
+	margin-top: -2%;
 
 }
 
@@ -294,10 +376,10 @@ p{
 	grid-area: main;
 }
 
-.header{
 
+.header{
 	grid-area: header;
-	background-color: rgba(236, 240, 241,0.75)
+	background-color: white;
 }
 
 .footer{
@@ -346,17 +428,7 @@ p{
 
 
 
-#formugana{
-	position: relative;
-	top: 1%;
-	left: 10%;
-	padding: 15px;
-	width: 350px;
-	background-color: silver;
-	border-radius: 15px;
-	border: 2px solid #f0932b;
-	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.5);
-}
+
 
 .etiqueta {
 	color: #272727;
@@ -406,6 +478,7 @@ h4{
 	grid-area: main;
 	
 }
+
 
 .header{
 	grid-area: header;
@@ -488,14 +561,12 @@ h4{
 	font-size: 30pt;
 }
 
-#participar{
-	margin-right:30px;
-	margin-top:20px;
- 	padding:15px;
-	font-size:15pt;
-	text-align: ;
- 	background-color:red;
 
+#subtitulos1{
+	padding:15px;
+	margin-left:90px;
+	font-size: 25pt;
+	background-color:silver;
 }
 
 a{
@@ -524,7 +595,18 @@ h4{
 	color: #ffffff;
 }
 
+#participar{
+	margin-right:30px;
+	margin-top:20px;
+ 	padding:15px;
+	font-size:15pt;
+	text-align: ;
+ 	background-color:red;
+
+}
+
 #formugana{
+	margin-top:10px;
 	position: relative;
 	top: 1%;
 	left: 10%;
@@ -532,8 +614,24 @@ h4{
 	width: 350px;
 	background-color: silver;
 	border-radius: 15px;
-	border: 2px solid #f0932b;
-	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.5);
+	font-weight:bold;
+	border: 2px;
+}
+
+#participar2{
+	padding-top: 2%;
+	padding-right: 5%;
+	padding-left: 5%;
+	padding-bottom:5%;
+	margin-top:30px;
+	margin-bottom:10px;
+	text-align: left;
+	background-color:red;
+	border-radius:10px;
+	color:white;
+	margin-left:10%;
+	font-size:15px;
+
 }
 
 .etiqueta {
@@ -570,6 +668,7 @@ h4{
 }
 
 .redes{
+	padding:1px;
 	float: right;
 	margin-right: 1%;
 	margin-top: -1.5%;
