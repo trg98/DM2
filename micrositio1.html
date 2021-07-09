@@ -1,85 +1,105 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Landing Page</title>
+	<title>micrositio_landingpage</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-	<link rel="stylesheet" type="text/css" href="estilo1.css">
-	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/estilo_lan.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
-
-
-	
 </head>
 
-<body class="grid_container">
-
+<body id="image" class="grid_container">
 
 <header class="header"> 
+	<div id="logo"> <a href="index.html"> <img src="imagenes/logo1-01.png"></a></div>
 
-<logo class="cabecera"><a href="landingpage.html"><url><img src="imagenes/logo.png" width="600px" height="90px"></url></a></logo>
+ </header>
+<aside class="sidebar"> 
+<section>
+		
+		
+	</div>
+	</section>
 
-</h1>
-
-</header> <!--cabecera -->
-
-<article class="main1">
+</aside>
+<article class="main">
 	
 <div id="titulos">
-		
-<h3>Capturas de pantalla</h3><br>
+		<h6>CAPTURAS DE PANTALLA</h6></div>
 
-<h5>Versión escritorio/tablet/mobile</h5>
+		<div id="subtitulos1">
+		Tamaños: Escritorio - tablet - mobile
 
-<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
-<a data-fancybox="gallery" href="imagenes/landing_escritorio.png" width="300px" height="300px">
+</div>
+<div id="galería">	
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    
+    <a data-fancybox="gallery" href="imagenes/landing_escritorio.png" width="300px" height="300px">
 
-<img src="imagenes/landing_escritorio.png" width="160px" height="160px"></a>
+    <img src="imagenes/escritorio.jpg" width="160px" height="130px"></a>
 
-<a data-fancybox="gallery" href="imagenes/landing_tablet.png" width="300px" height="600px">
+    <a data-fancybox="gallery" href="imagenes/landing_tablet.png" width="300px" height="600px">
 
-<img src="imagenes/landing_tablet.png" width="160px" height="160px"></a>
+    <img src="imagenes/tablet.jpg" width="160px" height="130px"></a>
 
+    <a data-fancybox="gallery" href="imagenes/landing_mobile.png" width="300px" height="600px">
 
-<a data-fancybox="gallery" href="imagenes/landing_mobile.png" width="300px" height="300px">
+    <img src="imagenes/mobile.jpg" width="160px" height="130px"></a>
 
-<img src="imagenes/landing_mobile.png" width="160px" height="160px"></a><br><br>
+</div>
 
+<div id="titulos">
+<h6>PALETA CROMÁTICA</h6></div>
+</div>
 
+<div id="galería">	
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    <a data-fancybox="gallery" href="imagenes/paleta_color.png" width="300px" height="300px">
 
-<h3>Paleta de colores</h3>
+    <img src="imagenes/paleta_color.png" width="190px" height="260px"></a>
+</div>
 
-Plateado: #cccccc <br>
-<img src="imagenes/color_plateado.jpg"><br>
-Blanco: #fefeff <br>
-<img src="imagenes/color_blanco.jpg"><br>
-Rojo: #ff0000<br>
-<img src="imagenes/color_rojo.jpg"><br>
+<div id="titulos">
+		<h6>FUENTES TIPOGRÁFICAS</h6></div>
 
-<h3>Tipografías</h3>
+		<div id="subtitulos1">
+		Monserrat regular y Bold.
 
-<h4>Carter One</h4>
-<h5>
-ABCDEFGHIJKLMNÑOPQRSTUVWXYZ<br>
-abcdefghijklmnñopqrstuvwxyz<br>
-1234567890 !"·$%&/()=?¿"@	
-</h5><br>
+</div>
+<div id="galería">	
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    <a data-fancybox="gallery" href="imagenes/monserrat.png" width="300px" height="300px">
 
-<h6>Arial</h6>
-<h6>
-ABCDEFGHIJKLMNÑOPQRSTUVWXYZ<br>
-abcdefghijklmnñopqrstuvwxyz<br>
-1234567890 !"·$%&/()=?¿"@	
-</h6></a>
+    <img src="imagenes/monserrat.png" width="140px" height="160px"></a>
 
+</div>
 
-</article> <!--contenido -->
-
+ 
 
 
-<footer class="footer"> <a href="landingpage.html"> <h2>Index</h2> </a> 
- </footer> <!--pie -->
+</article>
+
+<footer class="footer"> 
+
+	<a href="micrositio1.html"><h4>Tomas Timurcioglu</h4></a> 
+	
+	<a href="https://www.facebook.com/" target="_blank"> 
+	<img src="imagenes/facebook.png" class="redes"> </a>
+	
+	<p class="animate__animated animate__pulse animate__infinite" id="seguinos">Seguinos en</p>
+
+	 
+	
+	
+	
+ </footer>
 
 </body>
 </html>
+
+
+
+ 
